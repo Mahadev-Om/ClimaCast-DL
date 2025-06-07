@@ -1,2 +1,42 @@
-# ClimaCast-DL
-Pioneered deep learning on Jena Climate dataset (400K+ records) using LSTM, CNN &amp; DNN. Built robust time-series models via temporal windowing &amp; standardization. LSTM achieved lowest MAE. This project fuses scientific rigor with creative design to forecast complex climate patterns with real-world impact.
+
+---
+
+**ClimaCast DL – Multivariate Climate Forecasting**
+
+```markdown
+ClimaCast DL
+
+Advanced deep learning models (LSTM, CNN, DNN) applied to multivariate climate forecasting using the Jena dataset (400K+ entries).
+
+Overview
+
+This project demonstrates the power of deep learning for time-series forecasting in climate science. LSTM achieved the lowest MAE, capturing long-range temporal patterns effectively.
+
+Tools & Techniques
+
+TensorFlow, Keras, Pandas, NumPy, Matplotlib
+Temporal windowing and sequence preprocessing
+MAE, RMSE evaluations
+
+Models Compared
+
+LSTM (Best performance)
+CNN
+Dense Neural Network
+
+Key Takeaways
+
+LSTM handles long-term dependencies in environmental data.
+Temporal structure is critical in accurate forecasting.
+Preprocessing directly impacts model robustness.
+
+Structure
+
+`data/` — Raw & processed datasets  
+`models/` — Model architecture and training scripts  
+`notebooks/` — Exploratory data analysis and results
+
+Status
+
+ Final model ready for deployment  
+ Visualized prediction windows for interpretability  
